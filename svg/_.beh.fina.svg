@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1300px" height="1300px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1300 1056"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:black;fill-opacity:0.501961}
+    .fil2 {fill:#FF0066;fill-opacity:0.501961}
+    .fil1 {fill:#FF9966;fill-opacity:0.501961}
+   ]]>
+  </style>
+ </defs>
+ <g id="_100:master" visibility="hidden">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M857 533c58,-31 54,-100 56,-160l76 2c2,37 -1,103 -14,153 25,39 63,41 113,40l0 82 -50 0c-81,0 -124,-45 -181,-117z"/>
+  <path class="fil1" d="M897 465l72 -22c34,194 -169,207 -360,207 -224,0 -348,-44 -250,-304l62 28c-61,150 -32,195 190,195 143,0 311,-18 286,-104z"/>
+ </g>
+ <g id="Layer_x0020_1" visibility="hidden">
+  <metadata id="CorelCorpID_1Corel-Layer"/>
+  <path class="fil2" d="M918 406l71 10 -15 81c-11,59 52,72 87,72l36 0 0 81 -32 0c-85,0 -188,-24 -164,-154l17 -90z"/>
+  <path class="fil1" d="M969 443c34,194 -118,204 -360,207 -224,3 -348,-44 -250,-304l62 28c-61,150 -32,195 190,195 171,0 279,-11 290,-70 5,-29 43,-41 68,-56z"/>
+ </g>
+ <g id="Layer_x0020_2" visibility="hidden">
+  <metadata id="CorelCorpID_2Corel-Layer"/>
+  <path class="fil0" d="M913 405l69 4 -6 85c-4,63 48,75 116,75l19 0 0 81 -19 0c-151,0 -198,-53 -188,-150l9 -95z"/>
+  <path class="fil1" d="M975 494c-1,145 -147,154 -366,156 -224,3 -348,-44 -250,-304l67 20c-62,150 -37,203 185,203 171,0 283,-11 293,-70l71 -5z"/>
+ </g>
+ <g id="Layer_x0020_3">
+  <metadata id="CorelCorpID_3Corel-Layer"/>
+  <path class="fil0" d="M1139 650c-2,0 -17,0 -19,0 -79,-1 -127,-18 -158,-58 -90,48 -229,57 -308,57 -264,1 -395,-80 -295,-309 12,-28 81,6 68,33 -80,165 75,196 224,194 53,0 203,-2 277,-44 -5,-18 -9,-37 -13,-58l-10 -51c-5,-32 65,-48 69,-26l11 52c13,62 43,129 133,129l21 0 0 81z"/>
+ </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1300px" height="1300px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1300 1056"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:black;fill-opacity:0.501961}
+    .fil1 {fill:#006633}
+   ]]>
+  </style>
+ </defs>
+ <g id="_100:master" visibility="hidden">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="712,522 776,585 712,648 650,585 "/>
+  <polygon class="fil0" points="850,522 914,585 850,648 788,585 "/>
+ </g>
+ <g id="Layer_x0020_2">
+  <metadata id="CorelCorpID_1Corel-Layer"/>
+  <path class="fil1" d="M869 573l29 -29c11,-11 29,-11 40,0l29 29c11,11 11,29 0,40l-29 29c-11,11 -29,11 -40,0l-29 -29c-11,-11 -11,-29 0,-40zm-142 0l29 -29c11,-11 29,-11 40,0l29 29c11,11 11,29 0,40l-29 29c-11,11 -29,11 -40,0l-29 -29c-11,-11 -11,-29 0,-40z"/>
+ </g>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1300px" height="1300px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1300 1056"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:black;fill-opacity:0.501961}
+    .fil2 {fill:#990000;fill-opacity:0.501961}
+    .fil1 {fill:#99CCCC}
+   ]]>
+  </style>
+ </defs>
+ <g id="_100:master" visibility="hidden">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M589 650l0 -81 21 0c55,0 127,-36 154,-56 -21,-56 -55,-48 -108,-47l-22 -76c163,-94 290,-35 290,43 1,83 -184,217 -310,217l-25 0z"/>
+  <path class="fil1" d="M591 650l0 -81c-20,0 -40,19 -40,40 -1,21 20,41 40,41z"/>
+  <path class="fil2" d="M976 569l0 81 -29 0c-173,0 -127,-186 -291,-184l-22 -76c126,-26 164,18 188,72 24,53 58,107 137,107l17 0z"/>
+ </g>
+ <g id="Layer_x0020_1" visibility="hidden">
+  <metadata id="CorelCorpID_1Corel-Layer"/>
+  <path class="fil0" d="M589 650l0 -81c55,0 144,-18 188,-51 -21,-56 -68,-62 -121,-52l-22 -76c163,-94 341,-62 341,16 0,83 -212,244 -361,244l-25 0z"/>
+  <path class="fil1" d="M591 650l0 -81c-20,0 -40,19 -40,40 -1,21 20,41 40,41z"/>
+  <path class="fil2" d="M1057 569l0 81 -29 0c-152,0 -221,-64 -250,-132 -18,-43 -50,-64 -122,-52l-22 -76c107,-21 143,36 194,91 43,45 96,88 212,88l17 0z"/>
+ </g>
+ <g id="Layer_x0020_2">
+  <metadata id="CorelCorpID_2Corel-Layer"/>
+  <path class="fil1" d="M617 390c81,40 110,89 162,126 59,-34 91,-75 91,-94 0,-36 -34,-64 -106,-63 -55,0 -107,14 -147,31zm-97 179l0 0 1 0 41 0c54,0 102,-9 143,-22 -31,-34 -67,-73 -149,-109l13 -97c49,-36 110,-62 195,-65 213,-9 225,162 93,276 37,10 86,17 152,17l0 81c-131,0 -197,-17 -239,-43 -57,26 -127,43 -208,43l-41 0 -1 0 0 0c-20,0 -40,-20 -40,-41 1,-20 20,-40 40,-40z"/>
+ </g>
+</svg>
