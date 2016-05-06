@@ -8,11 +8,16 @@ viewBox="0 0 1300 1056"
   <style type="text/css">
    <![CDATA[
     .fil0 {fill:#99CCCC}
+    .fil1 {fill:#FF6600}
    ]]>
   </style>
  </defs>
- <g id="_100:master">
+ <g id="_100:master" visibility="hidden">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M764 569l0 0 0 0 56 0c38,0 82,-22 82,-93l-16 -448c-1,-35 72,-33 73,-11l16 437 0 20c0,106 -36,176 -155,176 -19,0 -38,0 -56,0l0 0c-20,-1 -40,-20 -40,-41 0,-20 20,-40 40,-40z"/>
+  <path class="fil0" d="M764 569l0 81c180,0 221,-39 207,-203l-37 -431c-2,-29 -74,-10 -72,8l37 437c8,89 7,108 -135,108z"/>
+ </g>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_1Corel-Layer"/>
+  <path class="fil1" d="M764 650c-20,0 -40,-20 -40,-41 0,-21 20,-40 40,-40l13 0c119,0 128,-57 126,-108l-25 -437c-1,-24 71,-32 73,-8l22 400c8,153 -24,234 -195,234l-14 0z"/>
  </g>
 </svg>

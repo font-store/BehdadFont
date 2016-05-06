@@ -13,6 +13,10 @@ viewBox="0 0 1300 1056"
  </defs>
  <g id="_100:master">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M805 569l24 0 0 81 -24 0c-122,0 -155,-81 -155,-158l0 -476c0,-21 69,-22 73,-1l0 461c0,71 44,93 82,93z"/>
+  <path class="fil0" d="M805 569l5 0 -1 81 -4 0c-122,0 -155,-81 -155,-158l0 -476c0,-21 69,-22 73,-1l0 461c0,71 44,93 82,93z"/>
+ </g>
+ <g id="Layer_x0020_1" visibility="hidden">
+  <metadata id="CorelCorpID_1Corel-Layer"/>
+  <path class="fil0" d="M723 476c0,71 44,93 82,93l24 0 0 81 -24 0c-122,0 -155,-81 -155,-158 0,-146 32,-323 -15,-461 -7,-20 63,-43 69,-23 50,144 19,316 19,468z"/>
  </g>
 </svg>

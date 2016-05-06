@@ -5,7 +5,7 @@ FamilyName: Behdad
 Weight: Regular
 Copyright: Copyright (c) 2016 Copyright Holder (info@font-store.ir), with Reserved Font Name "Behdad" \n This font is a gift to Behdad Esfahbod from Saleh Souzanchi 
 UComments: "2015-5-13: Created with FontForge (http://fontforge.org)"
-Version: Version:0.0.2;RFB:1.2.5;Building:2016-05-06 10:24:44.553916
+Version: Version:0.0.2;RFB:1.2.5;Building:2016-05-06 11:03:07.582691
 FONDName: RITA
 ItalicAngle: 0
 UnderlinePosition: 500
@@ -25,18 +25,18 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1431477301
-ModificationTime: 1462515069
+ModificationTime: 1462516387
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 100
+LineGap: 0
 VLineGap: 0
 Panose: 2 0 5 3 0 0 0 0 0 0
 OS2TypoAscent: 800
 OS2TypoAOffset: 0
 OS2TypoDescent: -500
 OS2TypoDOffset: 0
-OS2TypoLinegap: 100
+OS2TypoLinegap: 0
 OS2WinAscent: 1100
 OS2WinAOffset: 0
 OS2WinDescent: 700
@@ -71,10 +71,9 @@ Lookup: 262 1 0 "'mkmk' Mark to Mark lookup 2" { "'mkmk' Mark to Mark lookup 2-1
 Lookup: 258 1 0 "kernHorizontal" { "kernZeh"  "kernZheh subtable"  } ['kern' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Rita Font Builder v1 : Behdad Regular" "" "Version:0.0.2;RFB:1.2.5;Building:2016-05-06 10:24:44.553916" "" "Behdad is a trademark of Persian Font Store" "http://font-store.ir" "Mohammad Saleh Souzanchi" "" "http://font-store.ir" "http://soozanchi.ir" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL" "" "Behdad" "" "Behdad Regular"
+LangName: 1033 "" "" "" "Rita Font Builder v1 : Behdad Regular" "" "Version:0.0.2;RFB:1.2.5;Building:2016-05-06 11:03:07.582691" "" "Behdad is a trademark of Persian Font Store" "http://font-store.ir" "Mohammad Saleh Souzanchi" "" "http://font-store.ir" "http://soozanchi.ir" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL" "" "Behdad" "" "Behdad Regular"
 GaspTable: 2 8 8 65535 15 1
 Encoding: UnicodeBmp
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
@@ -84,7 +83,7 @@ WinInfo: 143 13 7
 BeginPrivate: 6
 StdHW 5 [100]
 StdVW 4 [69]
-BlueShift 1 7
+BlueShift 1 1
 BlueScale 8 0.039625
 BlueFuzz 1 1
 BlueValues 3 [0]
