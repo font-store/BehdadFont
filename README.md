@@ -36,10 +36,10 @@
 
 
 <ul  dir="rtl">
-<li>حرفه‌ای تست کنید : <a href="http://font-store.github.io/font-Behdad/online/">here</a></li>
-<li>نظرخواهی : <a href="http://font-store.github.io/font-Behdad/tests/">here</a></li>
-<li>نمونه تایپوگرافی : <a href="http://font-store.github.io/font-behdad/typography-persian.htm">here</a></li>
-<li>مقاله نمایشی : <a href="http://font-store.github.io/font-behdad/paper-persian.htm">here</a></li>
+<li>حرفه‌ای تست کنید : <a href="http://font-store.github.io/font-Behdad/online/">کلیک کنید</a></li>
+<li>نظرخواهی : <a href="http://font-store.github.io/font-Behdad/tests/">کلیک کنید</a></li>
+<li>نمونه تایپوگرافی : <a href="http://font-store.github.io/font-behdad/typography-persian.htm">کلیک کنید</a></li>
+<li>مقاله نمایشی : <a href="http://font-store.github.io/font-behdad/paper-persian.htm">کلیک کنید</a></li>
 </ul>
 
 
