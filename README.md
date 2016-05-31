@@ -18,7 +18,7 @@
 <li>سبک : غیر تحصیلی - منولاین</li>
 <li>کاربرد : چاپ و نشر رومیزی، وب، موبایل</li>
 <li>ویرایش :  ۰.۰.۳</li>
-<li>دانلود : <a href="https://github.com/font-store/font-%E2%80%8CBehdad/releases/latest">here</a></li>
+<li>دانلود : <a href="https://github.com/font-store/font-%E2%80%8CBehdad/releases/latest">کلیک کنید</a></li>
 
 </ul>
 
