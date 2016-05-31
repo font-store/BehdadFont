@@ -1,4 +1,4 @@
-# About
+# About - درباره
 
 - Name : Behdad 
 - Descrption :Behdad is a Persian/Arabic font. This font is a gift to Behdad Esfahbod
@@ -9,9 +9,23 @@
 - Version : 0.0.3
 - Download : [here](https://github.com/font-store/font-‌Behdad/releases/latest)
 
+<ul  dir="rtl">
+
+<li>نام : بهداد </li>
+<li>توضیحات : بهداد یک فونت فارسی/عربی  هست و یک هدیه ویژه برای بهداد اسفهبد</li>
+<li>طراح تایپ‌فیس : <a href="http://github.com/zoghal">محمد صالح سوزنچی</a></li>
+<li>Development : <a href="http://github.com/zoghal">محمد صالح سوزنچی</a></li>
+<li>سبک : غیر تحصیلی - منولاین</li>
+<li>کاربرد : چاپ و نشر رومیزی، وب، موبایل</li>
+<li>۰٫۰٫۳ : 0.0.3</li>
+<li>دانلود : <a href="https://github.com/font-store/font-%E2%80%8CBehdad/releases/latest">here</a></li>
+
+</ul>
 
 
-#  Demo & Tests
+
+
+#  Demo & Tests - دمو و تست‌ها
 
 - Tecnical Tester : [here](http://font-store.github.io/font-Behdad/online/)
 - Survey 1 : [here](http://font-store.github.io/font-Behdad/tests/)
@@ -31,7 +45,7 @@
 
 
 
-# Donation
+# Donation - حمایت مالی
 
 [![Intro](docs/4.png)](https://www.payping.ir/d/t95R)
 
@@ -51,7 +65,7 @@ total(dollar) : 0$
 
 
 
-# Preview
+# Preview - تصاویر نمایشی
 
 
 ![Intro](docs/1.png)
