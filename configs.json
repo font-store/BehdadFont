@@ -1,9 +1,9 @@
 {
 	"rfb": "1",
 	"fontName":  "Behdad",
-	"fontVersion": "0.0.2",
+	"fontVersion": "0.0.3",
 	"fontMeta": {
-        "Copyright": "Copyright (c) 2016 Copyright Holder (info@font-store.ir), with Reserved Font Name \"Behdad\" ",
+        "Copyright": "Copyright (c) 2016 Copyright Holder (info@font-store.ir), with Reserved Font Name \"Behdad\" \r\n This font is a gift to Behdad Esfahbod from Saleh Souzanchi ",
         "License": "This Font Software is licensed under the SIL Open Font License, Version 1.1.",
         "LicenseURL": "http://scripts.sil.org/OFL",
         "Designer": "Mohammad Saleh Souzanchi",

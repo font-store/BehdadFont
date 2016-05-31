@@ -5,7 +5,7 @@ FamilyName: Behdad
 Weight: Regular
 Copyright: Copyright (c) 2016 Copyright Holder (info@font-store.ir), with Reserved Font Name "Behdad" \n This font is a gift to Behdad Esfahbod from Saleh Souzanchi 
 UComments: "2015-5-13: Created with FontForge (http://fontforge.org)"
-Version: Version:0.0.2;RFB:1.2.5;Building:2016-05-06 11:03:07.582691
+Version: Version:0.0.3;RFB:1.2.5;Building:2016-05-30 02:56:27.926369
 FONDName: RITA
 ItalicAngle: 0
 UnderlinePosition: 500
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1431477301
-ModificationTime: 1462516387
+ModificationTime: 1464560787
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -69,9 +69,10 @@ Lookup: 258 9 0 "kernHorizontalKerninginLatinloo" { "kernDal" [195,19,2] "kernRe
 Lookup: 260 1 0 "'mark' Mark Positioning lookup 1" { "'mark' Mark Positioning lookup 1-1"  } ['mark' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
 Lookup: 262 1 0 "'mkmk' Mark to Mark lookup 2" { "'mkmk' Mark to Mark lookup 2-1"  } ['mkmk' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
 Lookup: 258 1 0 "kernHorizontal" { "kernZeh"  "kernZheh subtable"  } ['kern' ('DFLT' <'dflt' > 'arab' <'dflt' > ) ]
+Lookup: 258 1 0 "kernHorizontalKerninginArabicYehFinal" { "kernHorizontalKerninginArabicYehFinal subtable"  } ['kern' ('arab' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "Rita Font Builder v1 : Behdad Regular" "" "Version:0.0.2;RFB:1.2.5;Building:2016-05-06 11:03:07.582691" "" "Behdad is a trademark of Persian Font Store" "http://font-store.ir" "Mohammad Saleh Souzanchi" "" "http://font-store.ir" "http://soozanchi.ir" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL" "" "Behdad" "" "Behdad Regular"
+LangName: 1033 "" "" "" "Rita Font Builder v1 : Behdad Regular" "" "Version:0.0.3;RFB:1.2.5;Building:2016-05-30 02:56:27.926369" "" "Behdad is a trademark of Persian Font Store" "http://font-store.ir" "Mohammad Saleh Souzanchi" "" "http://font-store.ir" "http://soozanchi.ir" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL" "" "Behdad" "" "Behdad Regular"
 GaspTable: 2 8 8 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -304,7 +305,7 @@ EndChar
 StartChar: _.beh.init
 Encoding: 65543 -1 7
 GlifName: _.beh.init
-Width: 384
+Width: 409
 VWidth: 1197
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -446,7 +447,7 @@ EndChar
 StartChar: _.heh.init
 Encoding: 65547 -1 11
 GlifName: _.heh.init
-Width: 810
+Width: 835
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -645,7 +646,7 @@ EndChar
 StartChar: _.sin.init
 Encoding: 65551 -1 15
 GlifName: _.sin.init
-Width: 956
+Width: 981
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -839,7 +840,7 @@ EndChar
 StartChar: _.sad.init
 Encoding: 65555 -1 19
 GlifName: _.sad.init
-Width: 1015
+Width: 1040
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -1012,7 +1013,7 @@ EndChar
 StartChar: _.ta.init
 Encoding: 65559 -1 23
 GlifName: _.ta.init
-Width: 776
+Width: 801
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -1175,7 +1176,7 @@ EndChar
 StartChar: _.ein.init
 Encoding: 65563 -1 27
 GlifName: _.ein.init
-Width: 561
+Width: 586
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -1328,7 +1329,7 @@ EndChar
 StartChar: _.feh.init
 Encoding: 65567 -1 31
 GlifName: _.feh.init
-Width: 501
+Width: 526
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -1614,7 +1615,7 @@ EndChar
 StartChar: _.kaf.init
 Encoding: 65575 -1 39
 GlifName: _.kaf.init
-Width: 593
+Width: 618
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -1873,7 +1874,7 @@ EndChar
 StartChar: _.lam.init
 Encoding: 65583 -1 47
 GlifName: _.lam.init
-Width: 333
+Width: 358
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -1968,8 +1969,8 @@ SplineSet
  565 351 618 261 628 172 c 1
  645 115 700 100 753 100 c 2
  789 100 l 1
- 789 -0 l 1
- 753 -0 l 2
+ 789 0 l 1
+ 753 0 l 2
  684 0 632 15 595 43 c 1
 502 112 m 0
  521 112 540 126 540 150 c 0
@@ -2027,7 +2028,7 @@ EndChar
 StartChar: _.mim.init
 Encoding: 65587 -1 51
 GlifName: _.mim.init
-Width: 605
+Width: 630
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -2194,7 +2195,7 @@ EndChar
 StartChar: _.dal.isol
 Encoding: 65592 -1 56
 GlifName: _.dal.isol
-Width: 587
+Width: 590
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -2202,20 +2203,20 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-75 73 m 0
- 75 92 81 106 97 106 c 0
- 101 106 105 105 111 103 c 0
- 137 93 170 88 204 88 c 0
- 299 88 405 127 429 194 c 1
- 397 299 290 368 206 427 c 0
- 203 430 201 437 201 447 c 0
- 201 476 215 524 239 524 c 0
- 243 524 247 523 251 521 c 0
- 366 437 512 345 512 185 c 0
- 512 180 512 175 512 170 c 0
- 494 56 338 -19 206 -19 c 0
- 165 -19 126 -11 95 4 c 0
- 88 8 75 45 75 73 c 0
+75 74 m 0
+ 75 96 83 115 103 115 c 0
+ 106 115 110 114 114 113 c 0
+ 162 100 207 93 247 93 c 0
+ 343 93 413 130 432 193 c 1
+ 400 298 293 367 209 427 c 0
+ 199 434 195 446 195 459 c 0
+ 195 489 217 525 240 525 c 0
+ 245 525 249 524 254 521 c 0
+ 370 440 515 345 515 185 c 0
+ 515 180 515 175 515 170 c 0
+ 498 58 379 -11 241 -11 c 0
+ 198 -11 153 -4 109 10 c 0
+ 88 17 75 47 75 74 c 0
 EndSplineSet
 Colour: ffda6b
 EndChar
@@ -2412,7 +2413,7 @@ EndChar
 StartChar: _.he8.init
 Encoding: 65599 -1 63
 GlifName: _.he8.init
-Width: 761
+Width: 786
 VWidth: 1304
 GlyphClass: 1
 UnlinkRmOvrlpSave: 1
@@ -4425,7 +4426,7 @@ EndChar
 StartChar: _.beh_k.init
 Encoding: 65661 -1 125
 GlifName: _.beh_k.init
-Width: 384
+Width: 409
 VWidth: 1197
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -4647,7 +4648,7 @@ EndChar
 StartChar: g.feh.init
 Encoding: 65235 65235 135
 GlifName: g.feh.init
-Width: 501
+Width: 526
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -4998,7 +4999,7 @@ EndChar
 StartChar: g.kaf.init.fa
 Encoding: 64400 64400 157
 GlifName: g.kaf.init.fa
-Width: 593
+Width: 618
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -5177,7 +5178,7 @@ EndChar
 StartChar: g.ein.init
 Encoding: 65227 65227 168
 GlifName: g.ein.init
-Width: 561
+Width: 586
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -5505,7 +5506,7 @@ EndChar
 StartChar: g.mim.init
 Encoding: 65251 65251 188
 GlifName: g.mim.init
-Width: 605
+Width: 630
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -5537,7 +5538,7 @@ EndChar
 StartChar: g.sin.init
 Encoding: 65203 65203 190
 GlifName: g.sin.init
-Width: 956
+Width: 981
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -5716,7 +5717,7 @@ EndChar
 StartChar: g.beh.init
 Encoding: 65169 65169 201
 GlifName: g.beh.init
-Width: 384
+Width: 409
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -5800,7 +5801,7 @@ EndChar
 StartChar: g.yeh.init.fa
 Encoding: 64510 64510 206
 GlifName: g.yeh.init.fa
-Width: 384
+Width: 409
 VWidth: 1197
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -5850,7 +5851,7 @@ EndChar
 StartChar: g.taa.init
 Encoding: 65219 65219 209
 GlifName: g.taa.init
-Width: 776
+Width: 801
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -5865,7 +5866,7 @@ EndChar
 StartChar: g.he8.init
 Encoding: 65259 65259 210
 GlifName: g.he8.init
-Width: 761
+Width: 786
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -5895,7 +5896,7 @@ EndChar
 StartChar: g.heh.init
 Encoding: 65187 65187 212
 GlifName: g.heh.init
-Width: 810
+Width: 835
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -5958,7 +5959,7 @@ EndChar
 StartChar: g.gein.init
 Encoding: 65231 65231 216
 GlifName: g.gein.init
-Width: 561
+Width: 586
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -6014,6 +6015,8 @@ AnchorPoint: "down" 314 -433 basechar 0
 LayerCount: 2
 Fore
 Refer: 64 -1 N 1 0 0 1 0 0 3
+PairPos2: "kernHorizontalKerninginArabicYehFinal subtable" g.kaf.init.fa dx=-182 dy=0 dh=-182 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "kernHorizontalKerninginArabicYehFinal subtable" g.ghaf.init dx=-198 dy=0 dh=-198 dv=0 dx=0 dy=0 dh=0 dv=0
 Colour: d7d7d7
 EndChar
 
@@ -6131,7 +6134,7 @@ EndChar
 StartChar: g.teh.init
 Encoding: 65175 65175 222
 GlifName: g.teh.init
-Width: 384
+Width: 409
 VWidth: 1197
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -6205,7 +6208,7 @@ EndChar
 StartChar: c.zal
 Encoding: 1584 1584 226
 GlifName: c.zal
-Width: 587
+Width: 590
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -6280,7 +6283,7 @@ EndChar
 StartChar: g.jim.init
 Encoding: 65183 65183 231
 GlifName: g.jim.init
-Width: 810
+Width: 835
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -6392,7 +6395,7 @@ EndChar
 StartChar: g.dal.isol
 Encoding: 65193 65193 238
 GlifName: g.dal.isol
-Width: 587
+Width: 590
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -6553,7 +6556,7 @@ EndChar
 StartChar: g.ghaf.init
 Encoding: 64404 64404 248
 GlifName: g.ghaf.init
-Width: 593
+Width: 618
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
@@ -6627,7 +6630,7 @@ EndChar
 StartChar: g.kaf.init.ar
 Encoding: 65243 65243 253
 GlifName: g.kaf.init.ar
-Width: 593
+Width: 618
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -6930,7 +6933,7 @@ EndChar
 StartChar: g.kheh.init
 Encoding: 65191 65191 268
 GlifName: g.kheh.init
-Width: 810
+Width: 835
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -6947,7 +6950,7 @@ EndChar
 StartChar: g.yeh_hamze.init
 Encoding: 65163 65163 269
 GlifName: g.yeh_hamze.init
-Width: 384
+Width: 409
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7321,7 +7324,7 @@ EndChar
 StartChar: g.zad.init
 Encoding: 65215 65215 288
 GlifName: g.zad.init
-Width: 1015
+Width: 1040
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -7958,7 +7961,7 @@ EndChar
 StartChar: g.zal.isol
 Encoding: 65195 65195 323
 GlifName: g.zal.isol
-Width: 587
+Width: 590
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -8335,7 +8338,7 @@ EndChar
 StartChar: g.shin.init
 Encoding: 65207 65207 344
 GlifName: g.shin.init
-Width: 956
+Width: 981
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8433,7 +8436,7 @@ EndChar
 StartChar: g.cheh.init
 Encoding: 64380 64380 350
 GlifName: g.cheh.init
-Width: 810
+Width: 835
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8583,7 +8586,7 @@ EndChar
 StartChar: g.sad.init
 Encoding: 65211 65211 355
 GlifName: g.sad.init
-Width: 1015
+Width: 1040
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8599,7 +8602,7 @@ EndChar
 StartChar: g.yeh.init.ar
 Encoding: 65267 65267 356
 GlifName: g.yeh.init.ar
-Width: 384
+Width: 409
 VWidth: 1197
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8678,7 +8681,7 @@ EndChar
 StartChar: g.zaa.init
 Encoding: 65223 65223 361
 GlifName: g.zaa.init
-Width: 776
+Width: 801
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -8694,7 +8697,7 @@ EndChar
 StartChar: g.qaf.init
 Encoding: 65239 65239 362
 GlifName: g.qaf.init
-Width: 501
+Width: 526
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8728,7 +8731,7 @@ EndChar
 StartChar: g.peh.init
 Encoding: 64344 64344 364
 GlifName: g.peh.init
-Width: 384
+Width: 409
 VWidth: 1197
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8760,7 +8763,7 @@ EndChar
 StartChar: c.dal
 Encoding: 1583 1583 366
 GlifName: c.dal
-Width: 587
+Width: 590
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -8903,7 +8906,7 @@ EndChar
 StartChar: g.seh.init
 Encoding: 65179 65179 375
 GlifName: g.seh.init
-Width: 384
+Width: 409
 VWidth: 1197
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -8948,7 +8951,7 @@ EndChar
 StartChar: g.lam.init
 Encoding: 65247 65247 378
 GlifName: g.lam.init
-Width: 333
+Width: 358
 VWidth: 1304
 GlyphClass: 2
 Flags: HMW
@@ -9188,7 +9191,7 @@ EndChar
 StartChar: g.nun.init
 Encoding: 65255 65255 389
 GlifName: g.nun.init
-Width: 384
+Width: 409
 VWidth: 1304
 GlyphClass: 2
 UnlinkRmOvrlpSave: 1
@@ -9446,7 +9449,7 @@ EndChar
 StartChar: _.ghaf.init
 Encoding: 65666 -1 403
 GlifName: _.ghaf.init
-Width: 593
+Width: 618
 VWidth: 0
 GlyphClass: 2
 Flags: HMW
