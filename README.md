@@ -15,28 +15,18 @@
 
 - Tecnical Tester : [here](http://font-store.github.io/font-Behdad/online/)
 - Survey 1 : [here](http://font-store.github.io/font-Behdad/tests/)
-- typography Example : [here](font-store.github.io/font-behdad/typography-persian.htm)
-- Paper Demo : [here](font-store.github.io/font-behdad/peper-persian.htm)
-
-
-<p dir="rtl">
-
-
-- تست حرفه‌ای : [here](http://font-store.github.io/font-Behdad/online/)
-
-
-- نظرخواهی : [here](http://font-store.github.io/font-Behdad/tests/)
-
-
-- نمونه آزمایشگاهی : [here](font-store.github.io/font-behdad/typography-persian.htm)
-
-
-- مقاله نمونه : [here](font-store.github.io/font-behdad/peper-persian.htm)
-
-</p>
+- typography Example : [here](http://font-store.github.io/font-behdad/typography-persian.htm)
+- Paper Demo : [here](http://font-store.github.io/font-behdad/peper-persian.htm)
 
 
 
+
+<ul  dir="rtl">
+<li>حرفه‌ای تست کنید : <a href="http://font-store.github.io/font-Behdad/online/">here</a></li>
+<li>نظرخواهی : <a href="http://font-store.github.io/font-Behdad/tests/">here</a></li>
+<li>نمونه تایپوگرافی : <a href="http://font-store.github.io/font-behdad/typography-persian.htm">here</a></li>
+<li>مقاله نمایشی : <a href="http://font-store.github.io/font-behdad/peper-persian.htm">here</a></li>
+</ul>
 
 
 
