@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'BehdadWeb';
+
+    src:  url('Behdad-Regular.woff2') format('woff2'),
+      url('Behdad-Regular.woff') format('woff'),
+    url('Behdad-Regular.otf') format('opentype') ,
+    url('Behdad-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TestFont';
+    src:url('Behdad-Regular.woff2') format('woff2'),
+    url('Behdad-Regular.woff') format('woff'),
+    url('Behdad-Regular.otf') format('opentype') ,
+    url('Behdad-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GanjNamehSans';
+    src:  url('GanjNamehSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'FSIcon';
+    src:url('fontstore-icon.woff2') format('woff2'),
+    url('fontstore-icon.woff') format('woff'),
+    url('fontstore-icon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'LalezarWeb';
+    src:  url('Lalezar-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
