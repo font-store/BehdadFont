@@ -1,417 +1,500 @@
-html {
-  box-sizing: border-box;
-
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-
-:root {
-  font-size: 14px;
-
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-@media (min-width: 400px) and (max-width: 800px) {
-  :root {
-    font-size: calc( 14px + (17 - 14) * ( (100vw - 400px) / ( 800 - 400) ));
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
   }
-}
-@media (min-width: 800px) {
-  :root {
-    font-size: 17px;
-    line-height: 1.8rem;
+
+  svg:not(:root) {
+    overflow: hidden;
   }
-}
 
-html{
-  font-family: TestFont,cursive;
-  direction: rtl;
-  margin: 0px;
-}
+  html {
+    font-family: TestFont, monospace;
+    direction: rtl;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 1.6;
+  }
 
-body{
-  background-color: #f3f3f3;
-  color: #4d4d4d;
-
-}
-
-/******************************
+  body {
+    /*background-color: #f3f3f3;*/
+    background-color: #efefef;
+    color: #4d4d4d;
+  }
+  /******************************
  Header box
 *******************************/
 
-header{
+  header {
+    padding: 1vh 12vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+  }
 
-  padding: 1vh 12vw ;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  //display: none;
-}
+  header.changeState {
+    background: #FFFFFF;
+    border-bottom: 1px solid #d0d4d9;
+    box-shadow: 0 1px 1px #d0d4d9;
+  }
 
-header.changeState{
-  background: #FFFFFF;
-  border-bottom:1px solid #d0d4d9;
-  box-shadow: 0 1px 1px #d0d4d9;
-}
+  .navbar {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    position: relative;
+    height: 60px;
+  }
 
+  .navbar li {
+    flex: 0 0 auto;
+    padding: 0 1vw;
+    text-align: left;
+    align-self: center;
+  }
 
-.navbar{
-  flex: 1;
-  list-style: none;
-  display: flex;
-  margin: 0px;
+  .navbar a {
+    color: #2d2d2d;
+    font-size: 90%;
+    font-family: GanjNamehSans;
+    text-decoration: none;
+  }
 
-  position: relative;
-  height: 60px;
+  .navbar a:hover {
+    color: red;
+  }
 
-}
+  #TopLogo {
+    height: 60px;
+  }
 
-.navbar li{
-  flex: 0 0 auto;
-  padding: 0 1vw;
-  text-align: left;
-
-  align-self:center;
-
-}
-
-
-.navbar a{
-  color: #2d2d2d;
-  font-size: 15px;
-  font-family: GanjNamehSans;
-
-}
-
-#TopLogo{
-  height: 60px;
-
-
-}
-#logosvg{
-  position: relative;
-  top:5px;
-  z-index: 2;
-}
-
-/******************************
+  #logosvg {
+    position: relative;
+    top: 5px;
+    z-index: 2;
+  }
+  /******************************
 Layout setup
 *******************************/
 
-.container{
-  display: flex;
-  flex-direction: column;
-}
-section{
-  padding: 6vh 12vw  2vh 12vw;
-  flex: 1 1 auto;;
-  position: relative;
-  overflow: hidden;
-}
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section {
+    padding: 6vh 6vw  8vh 6vw;
+    flex: 1 1 auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .section.fullPage {
+    min-height: 100vh;
+  }
 
 
-section.fullPage{
+  .section.splitLeft,
+  .section.splitRight{
+    display: flex;
+    flex-direction: row;
+  }
 
-  min-height: 100vh ;
-}
+  .splitRight .section-caption;{
+    width: 300px;
+  }
 
-.section-end{
+  .section-end {
+    flex: 1 1 auto;
+    ;
+    position: relative;
+    overflow: hidden;
+  }
 
-  flex: 1 1 auto;;
-  position: relative;
-  overflow: hidden;
-}
+  h2.section-title {
+    text-align: center;
+    font-family: "LalezarWeb";
+    font-size: 5rem;
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .section-title-box {
+    text-align: center;
+    display: flex;
+    height: 150px;
+    width: 150px;
+
+    border: 10px solid #000;
+    background-color: #830000;
+  //  border-radius: 50% 50%;
+  
+    border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
 
 
+    align-items: center;
+  }
 
-section h2.title{
-  text-align: center;
-  font-family: "LalezarWeb";
-  font-size:4rem;
-  display: block;
-  margin-bottom: 15vh;
-}
+  .section-title-box span{
+    color: #fff;
+    text-align: center;
+    flex: 1 1 auto;
+    font-family: "LalezarWeb";
+    font-size: 2rem;
 
-section p{
+  }
+  
+  .section-wrap {
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 30px;
+  }
 
-}
+  p+p {
+    margin-top: 5px;
+  }
 
-
-footer{
-  background: #343740;
-  padding: 100px;
-}
-
-/******************************
+  footer {
+    background: #343740;
+    padding: 100px;
+  }
+  /******************************
 Welcome Section
 *******************************/
 
+  #welcome {
+    padding-top: 14vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+  }
 
-#welcome{
-  padding-top: 14vh;
-  text-align: center;
-  display:flex;
-  flex-direction: column;
-  //justify-content: center;
-  overflow: hidden;
-  position: relative;
+  #welcome .logo {
+    width: 50%;
+    margin: 0 auto;
+  }
 
-}
-
-#welcome .logo{
-  width: 50%;
-  margin: 0 auto;
-}
-
-#welcome .logoText p{
-  line-height: 0.8;
-  font-size: 1rem;
-  font-family: GanjNamehSans;
-
-
-}
-
-/******************************
+  #welcome .logoText p {
+    line-height: 0.8;
+    font-size: 1rem;
+    font-family: GanjNamehSans;
+  }
+  /******************************
 intro Section
 *******************************/
 
-#intro{
-  background-color: #ffffff;
+  #intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f3f3f3;
+  }
 
-  text-align: center;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  //overflow: hidden;
-  position: relative;
+  #intro h1,
+  #intro h2 {
+    font-weight: 400;
+  }
 
-}
-#intro h1,#intro h2{
-  font-weight: 400;
-}
+  #intro .row1 {
+    height: 10vw;
+    color: #888;
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+  }
 
-#intro h1.fontName{
-  font-size: 25vw;
+  #intro .row1 div {
+    font-family: lalezar;
+    font-size: 2vw;
+    display: block;
+  }
 
-  display: block;
+  #intro h2 {
+    font-size: 2vw
+  }
 
-  color:#C82257;
-  margin: 0;
-  line-height: 1;
-  text-overflow: clip;
-  text-shadow:#ccc -1px 1px 0, #c9c9c9 -2px 2px 0, #bbb -3px 3px 0, #b9b9b9 -4px 4px 0, #aaa -5px 5px 0,rgba(0,0,0,.1) -6px 6px 1px, rgba(0,0,0,.1) -7px 0 5px, rgba(0,0,0,.3) -1px 1px 3px, rgba(0,0,0,.15) -3px 3px 5px, rgba(0,0,0,.2) -5px 5px 10px, rgba(0,0,0,.2) -10px 10px 10px, rgba(0,0,0,.1) -20px 20px 20px;
-}
+  #intro h1.fontName {
+    font-size: 25vw;
+    display: block;
+    color: #C82257;
+    margin: 0;
+    line-height: 1;
+    text-overflow: clip;
+    -moz-user-select: none;
+    text-shadow: #ccc -1px 1px 0, #c9c9c9 -2px 2px 0, #bbb -3px 3px 0, #b9b9b9 -4px 4px 0, #aaa -5px 5px 0, rgba(0, 0, 0, .1) -6px 6px 1px, rgba(0, 0, 0, .1) -7px 0 5px, rgba(0, 0, 0, .3) -1px 1px 3px, rgba(0, 0, 0, .15) -3px 3px 5px, rgba(0, 0, 0, .2) -5px 5px 10px, rgba(0, 0, 0, .2) -10px 10px 10px, rgba(0, 0, 0, .1) -20px 20px 20px;
+  }
 
-#intro .fontUsage{
+  #intro .row2 {
+    flex: 1 1 auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
 
-  width: 50vw;
-  margin: 0 auto;
-}
+  #intro .row3 {
+    flex: 0;
+  }
 
-#intro .fontUsage p{
+  .row3 p {
+    min-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
 
-  display: inline-block;
-  color:#444;
-  font-size: 50px;
-}
+  .downloadBTT {
+    display: block;
+    border: 1px solid #fff;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #52768c;
+    text-decoration: none;
+    border-radius: 9px;
+    box-shadow: 0px 0px 3px 1px #6f6f6f;
+    -moz-user-select: none;
+  }
+  .downloadBTT:hover{
+    box-shadow: 0px 0px 10px 2px #6f6f6f;
+  }
+  .downloadBTT span{
+    display: block;
+    color: #fff;
+    text-shadow: rgba(0,0,0,.3) 0 1px 1px;
+  }
 
-/******************************
+   .downloadBTT div{
+     display: flex;
+     flex-direction: column;
+   }
+  
+  /******************************
+About Section
+*******************************/
+
+  #about {
+    background: #fff;
+    
+  }
+
+  #about p {
+    text-indent: 30px;
+    text-align: 1.4;
+  }
+  /******************************
 Store Section
 *******************************/
 
-
-#store p {
-      -webkit-text-stroke-width: 0.003em;
-}
-/******************************
-scrool
-*******************************/
-
-.arabic{
-    background-color: #fff;
-
-}
-
-/******************************
-scrool
-*******************************/
-
-#description-font{
-   background-color: #42454E;
-   color: #fff;
-}
-
-
-#description-font .title{
-  line-height: 1;
-
-}
-
-
-#description-font p{
-  font-size: 1.1rem;
-  -webkit-text-stroke-width: 0.003em;
-  -webkit-text-stroke-color: #000;
-  font-weight: 400;
-  color: #eaeaea;
-}
-
-
-#description-font #Beliefs{
-  background-color: #42454e;
-  display: block;
-  direction: ltr;
-  //overflow: hidden;
-  position: relative;
-}
-
-#Beliefs .owl-item div{
-  padding: 4vw 0;
-  font-size: 15vw;
-  text-align: center;
-  color: #fff;
-  line-height: 1;
-
-}
-#Beliefs .owl-controls {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  left: 0;
-  right: 0;
-}
-#Beliefs .owl-page span{
-  width: 8px !important;
-  height: 8px !important;
-  background: #bebf8a !important;
-}
-
-/******************************
-scrool
-*******************************/
-
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  /* Safari and Chrome */
   #store p {
-    -webkit-text-stroke-width: 0.005em;
+    -webkit-text-stroke-width: 0.003em;
   }
-  .arabic{
-
-    -webkit-text-stroke-width:0.005em;
-
-  }
-
-  #welcome .logoText p{
-    -webkit-text-stroke-width:0.005em;
-  }
-
-  .navbar a{
-  -webkit-text-stroke-width:0.005em;
-  }
-
-}
-
-/******************************
+  /******************************
 scrool
 *******************************/
 
-
-#slider{
-  background-color: #42454e;
-  display: block;
-  direction: ltr;
-  //overflow: hidden;
-  position: relative;
-}
-
-#slider .owl-item div{
-  padding: 4vw 0;
-  font-size: 15vw;
-  text-align: center;
-  color: #fff;
-  line-height: 1;
-
-}
-#slider .owl-controls {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  left: 0;
-  right: 0;
-}
-#slider .owl-page span{
-  width: 8px !important;
-  height: 8px !important;
-  background: #bebf8a !important;
-}
-
-#slider .fontName{
-
-}
-
-
-
-
-
-/******************************
+  .arabic {
+    background-color: #fff;
+  }
+  /******************************
 scrool
 *******************************/
 
-@keyframes scroll {
-  0% {
-
-    transform: translateY(10);
+  #description-font {
+    background-color: #42454E;
+    color: #fff;
   }
-  50% {
 
-    transform: translateY(20px);
+  #description-font .title {
+    line-height: 1;
   }
-  100% {
 
-    transform: translateY(5);
+  #description-font p {
+    font-size: 1.1rem;
+    -webkit-text-stroke-width: 0.003em;
+    -webkit-text-stroke-color: #000;
+    font-weight: 400;
+    color: #eaeaea;
   }
-}
 
+  #description-font #Beliefs {
+    background-color: #42454e;
+    display: block;
+    direction: ltr;
+    position: relative;
+  }
 
-.center-it {
-  position: relative;;
-text-align: center;
-display: block;
-margin-top: 90px;
+  #Beliefs .owl-item div {
+    padding: 4vw 0;
+    font-size: 15vw;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+  }
 
-}
+  #Beliefs .owl-controls {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+  }
 
+  #Beliefs .owl-page span {
+    width: 8px !important;
+    height: 8px !important;
+    background: #bebf8a !important;
+  }
+  /******************************
+scrool
+*******************************/
 
-.mouse {
-  display: block;
-  height: 44px;
-  width: 28px;
-  border-radius: 12px;
-  border: 2px solid #BEBCBC;
-  text-align: center;
-  margin: 0 auto;
-}
-.mouse:after {
-  display: block;
-  margin: 0 auto;
-  height: 8px;
-  width: 8px;
-  background-color: #BEBCBC;
-  border-radius: 50%;
-  content: "";
-  -webkit-animation: scroll 1.3s ease-out infinite forwards;
-  -moz-animation: scroll 1.3s ease-out infinite forwards;
-  animation: scroll 1.3s ease-out infinite forwards;
-}
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari and Chrome */
+    p,
+    span,
+    div {
+      -webkit-text-stroke-width: 0.005em;
+    }
+  }
+  /******************************
+Props Section
+*******************************/
+
+  #props {
+    background-color: #32383c;
+  }
+
+  #props .owl-item div {
+    padding: 4vw 0;
+    font-size: 14vw;
+    text-align: center;
+    color: #fff;
+  }
+
+  #props .owl-dots {
+    text-align: center;
+  }
+
+  #props .owl-dot {
+    display: inline-block;
+  }
+
+  #props .owl-dot span {
+    width: 7px;
+    height: 7px;
+    margin: 5px 7px;
+    background: #b0c9bf;
+    display: block;
+    backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+  }
+
+  #props .owl-dot.active span {
+    background: #c50e0e;
+  }
+
+  #props .owl-dot:hover span {
+    background: #830000;
+  }
+
+  #slider .fontName {}
+  /******************************
+scrool
+*******************************/
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(10);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(5);
+    }
+  }
+
+  .center-it {
+    position: relative;
+    ;
+    text-align: center;
+    display: block;
+    margin-top: 90px;
+  }
+
+  .mouse {
+    display: block;
+    height: 44px;
+    width: 28px;
+    border-radius: 12px;
+    border: 2px solid #BEBCBC;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .mouse:after {
+    display: block;
+    margin: 0 auto;
+    height: 8px;
+    width: 8px;
+    background-color: #BEBCBC;
+    border-radius: 50%;
+    content: "";
+    -webkit-animation: scroll 1.3s ease-out infinite forwards;
+    -moz-animation: scroll 1.3s ease-out infinite forwards;
+    animation: scroll 1.3s ease-out infinite forwards;
+  }
+
+  @media all and (mxn-width: 300px) {
+    html {
+      font-size: 11px;
+      /* This means 18px */
+      line-height: 1.6;
+    }
+    #intro h1.fontName {
+      font-size: 35vw;
+    }
+    #intro .row1 div {
+      font-size: 4vw;
+    }
+    #props .owl-item div {
+      font-size: 16vw;
+    }
+  }
+
+  @media all and (max-width: 600px) {
+    html {
+      font-size: 13px;
+      /* This means 20px */
+      line-height: 1.8;
+    }
+    #intro h1.fontName {
+      font-size: 30vw;
+    }
+    #intro .row1 div {
+      font-size: 3vw;
+    }
+    #props .owl-item div {
+      font-size: 16vw;
+    }
+  }
+
+  @media all and (max-width: 800px) {
+    html {
+      font-size: 14px;
+      /* This means 20px */
+      line-height: 1.8;
+    }
+  }

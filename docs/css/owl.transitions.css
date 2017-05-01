@@ -3,7 +3,7 @@
  *  v1.3.2
  */
 
-.owl-origin {
+.animated {
 	-webkit-perspective: 1200px;
 	-webkit-perspective-origin-x : 50%;
 	-webkit-perspective-origin-y : 50%;
@@ -13,47 +13,47 @@
 	perspective : 1200px;
 }
 /* fade */
-.owl-fade-out {
+.fade-out {
   z-index: 10;
   -webkit-animation: fadeOut .7s both ease;
   -moz-animation: fadeOut .7s both ease;
   animation: fadeOut .7s both ease;
 }
-.owl-fade-in {
+.fade-in {
   -webkit-animation: fadeIn .7s both ease;
   -moz-animation: fadeIn .7s both ease;
   animation: fadeIn .7s both ease;
 }
 /* backSlide */
-.owl-backSlide-out {
+.backSlide-out {
   -webkit-animation: backSlideOut 1s both ease;
   -moz-animation: backSlideOut 1s both ease;
   animation: backSlideOut 1s both ease;
 }
-.owl-backSlide-in {
+.backSlide-in {
   -webkit-animation: backSlideIn 1s both ease;
   -moz-animation: backSlideIn 1s both ease;
   animation: backSlideIn 1s both ease;
 }
 /* goDown */
-.owl-goDown-out {
+.goDown-out {
   -webkit-animation: scaleToFade .7s ease both;
   -moz-animation: scaleToFade .7s ease both;
   animation: scaleToFade .7s ease both;
 }
-.owl-goDown-in {
+.goDown-in {
   -webkit-animation: goDown .6s ease both;
   -moz-animation: goDown .6s ease both;
   animation: goDown .6s ease both;
 }
 /* scaleUp */
-.owl-fadeUp-in {
+.fadeUp-in {
   -webkit-animation: scaleUpFrom .5s ease both;
   -moz-animation: scaleUpFrom .5s ease both;
   animation: scaleUpFrom .5s ease both;
 }
 
-.owl-fadeUp-out {
+.fadeUp-out {
   -webkit-animation: scaleUpTo .5s ease both;
   -moz-animation: scaleUpTo .5s ease both;
   animation: scaleUpTo .5s ease both;
