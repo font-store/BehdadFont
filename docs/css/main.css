@@ -14,13 +14,13 @@
     margin: 0px;
     box-sizing: border-box;
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   body {
     /*background-color: #f3f3f3;*/
     background-color: #efefef;
-    color: #4d4d4d;
+    color: #424242;
   }
   /******************************
  Header box
@@ -89,7 +89,7 @@ Layout setup
   }
 
   .section {
-    padding: 6vh 6vw  8vh 6vw;
+    padding: 6vh 6vw 8vh 6vw;
     flex: 1 1 auto;
     position: relative;
     overflow: hidden;
@@ -99,20 +99,18 @@ Layout setup
     min-height: 100vh;
   }
 
-
   .section.splitLeft,
-  .section.splitRight{
+  .section.splitRight {
     display: flex;
     flex-direction: row;
   }
 
-  .splitRight .section-caption;{
+  .splitRight .section-caption {
     width: 300px;
   }
 
   .section-end {
     flex: 1 1 auto;
-    ;
     position: relative;
     overflow: hidden;
   }
@@ -126,32 +124,42 @@ Layout setup
     margin-bottom: 5vh;
   }
 
-  .section-title-box {
-    text-align: center;
+  .caption-title {
     display: flex;
-    height: 150px;
-    width: 150px;
-
-    border: 10px solid #000;
-    background-color: #830000;
-  //  border-radius: 50% 50%;
-  
-    border-radius: 3px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-
-
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+    /*border: 10px solid #000;*/
+    /*background-color: #830000;*/
+    /*border-radius: 50% 50%;*/
+    /*border-radius: 3px;*/
+    /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);*/
   }
 
-  .section-title-box span{
-    color: #fff;
-    text-align: center;
+  .caption-title h2 {
+    color: #836262;
+    text-align: right;
     flex: 1 1 auto;
     font-family: "LalezarWeb";
-    font-size: 2rem;
-
+    font-size: 4rem;
+    margin: 0px;
   }
-  
+
+  .caption-note {
+    font-size: 11px;
+    padding: 0px 15px;
+    text-align: justify;
+    margin-left: 40px;
+    color: #434343;
+  }
+
+  .caption-note .helpIcon {
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+  }
+
   .section-wrap {
     position: relative;
     overflow: hidden;
@@ -162,6 +170,14 @@ Layout setup
 
   p+p {
     margin-top: 5px;
+  }
+
+  .splitRight .section-wrap {
+    padding: 0 60px 0 0;
+  }
+
+  .splitRight .caption-title h2 {
+    margin-top: 50px;
   }
 
   footer {
@@ -254,43 +270,49 @@ intro Section
   }
 
   .downloadBTT {
-    display: block;
-    border: 1px solid #fff;
+    display: flex;
     max-width: 200px;
     margin: 0 auto;
-    padding: 10px;
-    background-color: #52768c;
+    padding: 15px;
     text-decoration: none;
-    border-radius: 9px;
-    box-shadow: 0px 0px 3px 1px #6f6f6f;
+    /*border-radius: 9px;
+    box-shadow: 0px 0px 3px 1px #6f6f6f;*/
     -moz-user-select: none;
   }
-  .downloadBTT:hover{
-    box-shadow: 0px 0px 10px 2px #6f6f6f;
-  }
-  .downloadBTT span{
-    display: block;
-    color: #fff;
-    text-shadow: rgba(0,0,0,.3) 0 1px 1px;
+
+  .downloadBTT i {
+    font-size: 30px;
   }
 
-   .downloadBTT div{
-     display: flex;
-     flex-direction: column;
-   }
   
+
+  .downloadBTT .icon {
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .downloadBTT .textbox {
+    border-right: 1px solid #666;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+  }
+
+  .downloadBTT .textbox span {
+    flex: 1;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    text-shadow: rgba(0, 0, 0, .3) 0 1px 1px;
+  }
   /******************************
 About Section
 *******************************/
 
   #about {
     background: #fff;
-    
-  }
-
-  #about p {
-    text-indent: 30px;
-    text-align: 1.4;
   }
   /******************************
 Store Section
@@ -497,4 +519,276 @@ scrool
       /* This means 20px */
       line-height: 1.8;
     }
+  }
+  /*****************************
+  buttons
+  *************************/
+
+  .turquoise {
+    margin-right: 10px;
+    width: 100px;
+    background: #1abc9c;
+    border-bottom: #16a085 3px solid;
+    border-left: #16a085 1px solid;
+    border-right: #16a085 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .turquoise:hover {
+    opacity: 0.8;
+  }
+
+  .turquoise:active {
+    width: 100px;
+    background: #18B495;
+    border-bottom: #16a085 1px solid;
+    border-left: #16a085 1px solid;
+    border-right: #16a085 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+  }
+
+  .emerald {
+    margin-right: 10px;
+    width: 100px;
+    background: #2ecc71;
+    border-bottom: #27ae60 3px solid;
+    border-left: #27ae60 1px solid;
+    border-right: #27ae60 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .emerald:hover {
+    opacity: 0.8;
+  }
+
+  .emerald:active {
+    margin-right: 10px;
+    width: 100px;
+    background: #2BBB68;
+    border-bottom: #27ae60 1px solid;
+    border-left: #27ae60 1px solid;
+    border-right: #27ae60 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+  }
+
+  .peterriver {
+    background: #3498db;
+    border-bottom: #2980b9 3px solid;
+    border-left: #2980b9 1px solid;
+    border-right: #2980b9 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .peterriver:hover {
+    opacity: 0.8;
+  }
+
+  .peterriver:active {
+    background: #2385C7;
+    border-bottom: #2980b9 1px solid;
+    border-left: #2980b9 1px solid;
+    border-right: #2980b9 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+  }
+
+  .wetasphalt {
+    width: 100px;
+    background: #34495e;
+    border-bottom: #2c3e50 3px solid;
+    border-left: #2c3e50 1px solid;
+    border-right: #2c3e50 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .wetasphalt:hover {
+    opacity: 0.8;
+  }
+
+  .wetasphalt:active {
+    background: #2D3F51;
+    border-bottom: #2c3e50 1px solid;
+    border-left: #2c3e50 1px solid;
+    border-right: #2c3e50 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+  }
+
+  .sunflower {
+    margin-right: 10px;
+    width: 100px;
+    background: #f1c40f;
+    border-bottom: #f39c12 3px solid;
+    border-left: #f39c12 1px solid;
+    border-right: #f39c12 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .sunflower:hover {
+    opacity: 0.8;
+  }
+
+  .sunflower:active {
+    width: 100px;
+    background: #DAB10E;
+    border-bottom: #f39c12 1px solid;
+    border-left: #f39c12 1px solid;
+    border-right: #f39c12 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+  }
+
+  .carrot {
+    margin-right: 10px;
+    width: 100px;
+    background: #e67e22;
+    border-bottom: #d35400 3px solid;
+    border-left: #d35400 1px solid;
+    border-right: #d35400 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .carrot:hover {
+    opacity: 0.8;
+  }
+
+  .carrot:active {
+    width: 100px;
+    background: #CE6F17;
+    border-bottom: #d35400 1px solid;
+    border-left: #d35400 1px solid;
+    border-right: #d35400 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+  }
+
+  .alizarin {
+    margin-right: 10px;
+    width: 100px;
+    background: #e74c3c;
+    border-bottom: #c0392b 3px solid;
+    border-left: #c0392b 1px solid;
+    border-right: #c0392b 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .alizarin:hover {
+    opacity: 0.8;
+  }
+
+  .alizarin:active {
+    width: 100px;
+    background: #E64533;
+    border-bottom: #c0392b 1px solid;
+    border-left: #c0392b 1px solid;
+    border-right: #c0392b 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+  }
+
+  .concrete {
+    margin-right: 10px;
+    width: 100px;
+    background: #95a5a6;
+    border-bottom: #7f8c8d 3px solid;
+    border-left: #7f8c8d 1px solid;
+    border-right: #7f8c8d 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    float: left;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .concrete:hover {
+    opacity: 0.8;
+  }
+
+  .concrete:active {
+    width: 100px;
+    background: #8A9C9D;
+    border-bottom: #7f8c8d 1px solid;
+    border-left: #7f8c8d 1px solid;
+    border-right: #7f8c8d 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+  }
+
+  button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
