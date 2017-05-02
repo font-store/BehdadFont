@@ -148,7 +148,7 @@ Layout setup
 
   .caption-note {
     font-size: 11px;
-    padding: 0px 15px;
+    padding: 5px 15px;
     text-align: justify;
     margin-left: 40px;
     color: #434343;
@@ -217,6 +217,7 @@ intro Section
     flex-direction: column;
     justify-content: center;
     background-color: #f3f3f3;
+    padding-bottom: 0px;
   }
 
   #intro h1,
@@ -226,7 +227,7 @@ intro Section
 
   #intro .row1 {
     height: 10vw;
-    color: #888;
+    color: #777;
     display: flex;
     align-items: flex-end;
     align-self: center;
@@ -263,12 +264,33 @@ intro Section
     flex: 0;
   }
 
-  .row3 p {
-    min-width: 400px;
-    margin: 0 auto;
-    display: block;
+  
+.description{
+  padding: 10px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin: 0px auto;
   }
+.description span{
+  display: block;
+  padding: 10px 50px;
+      font-family: lalezar;
+    font-size: 1.5vw;
+     color: #777;
+}
+.description:after{
+  content: "";
+  height: 1px;
+  background: #999;
 
+  display: block;
+  position: relative;
+}
+
+.github-btt{
+  display: block;
+}
   .downloadBTT {
     display: flex;
     max-width: 200px;
@@ -284,8 +306,6 @@ intro Section
     font-size: 30px;
   }
 
-  
-
   .downloadBTT .icon {
     border-left: 1px solid #ccc;
     padding-left: 10px;
@@ -297,7 +317,7 @@ intro Section
     border-right: 1px solid #666;
     display: flex;
     flex-direction: column;
-    flex:1;
+    flex: 1;
   }
 
   .downloadBTT .textbox span {
@@ -432,6 +452,11 @@ Props Section
   }
 
   #slider .fontName {}
+/********************
+material box
+************************/
+
+
   /******************************
 scrool
 *******************************/
@@ -450,10 +475,9 @@ scrool
 
   .center-it {
     position: relative;
-    ;
-    text-align: center;
+        text-align: center;
     display: block;
-    margin-top: 90px;
+    margin-top: 30px;
   }
 
   .mouse {
@@ -525,8 +549,6 @@ scrool
   *************************/
 
   .turquoise {
-    margin-right: 10px;
-    width: 100px;
     background: #1abc9c;
     border-bottom: #16a085 3px solid;
     border-left: #16a085 1px solid;
@@ -535,7 +557,6 @@ scrool
     text-align: center;
     color: white;
     padding: 10px;
-    float: left;
     font-size: 12px;
     font-weight: 800;
   }
@@ -545,7 +566,6 @@ scrool
   }
 
   .turquoise:active {
-    width: 100px;
     background: #18B495;
     border-bottom: #16a085 1px solid;
     border-left: #16a085 1px solid;
@@ -555,7 +575,6 @@ scrool
     color: white;
     padding: 10px;
     margin-top: 3px;
-    float: left;
   }
 
   .emerald {
