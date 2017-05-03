@@ -1,6 +1,6 @@
        $(document).ready(function () {
 
-           $("#props .owl-carousel").owlCarousel({
+           $("#propertis .owl-carousel").owlCarousel({
                // autoPlay: true,
                // stopOnHover: true,
                // slideSpeed: 200,

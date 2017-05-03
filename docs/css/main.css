@@ -21,6 +21,7 @@
     /*background-color: #f3f3f3;*/
     background-color: #efefef;
     color: #424242;
+    min-width: 640px;
   }
   /******************************
  Header box
@@ -89,7 +90,7 @@ Layout setup
   }
 
   .section {
-    padding: 6vh 6vw 8vh 6vw;
+    padding: 8vh 6vw 8vh 6vw;
     flex: 1 1 auto;
     position: relative;
     overflow: hidden;
@@ -105,14 +106,29 @@ Layout setup
     flex-direction: row;
   }
 
-  .splitRight .section-caption {
-    width: 300px;
+  .section.splitLeft {
+    flex-direction: row-reverse;
   }
 
-  .section-end {
-    flex: 1 1 auto;
+  .section-caption {
+    flex: 0 0 300px;
+    display: block;
+  }
+
+  .section-wrap {
     position: relative;
     overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60px;
+    flex: 1 1 auto;
+  }
+
+  .splitRight .section-caption {
+    margin-left: 4vw;
+  }
+
+  .splitLeft .section-caption {
+    margin-right: 4vw;
   }
 
   h2.section-title {
@@ -130,11 +146,6 @@ Layout setup
     flex-wrap: nowrap;
     position: relative;
     overflow: hidden;
-    /*border: 10px solid #000;*/
-    /*background-color: #830000;*/
-    /*border-radius: 50% 50%;*/
-    /*border-radius: 3px;*/
-    /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);*/
   }
 
   .caption-title h2 {
@@ -150,8 +161,12 @@ Layout setup
     font-size: 11px;
     padding: 5px 15px;
     text-align: justify;
-    margin-left: 40px;
+    margin-left: 80px;
     color: #434343;
+  }
+
+  .caption-note p i {
+    margin-left: 3px;
   }
 
   .caption-note .helpIcon {
@@ -160,24 +175,18 @@ Layout setup
     cursor: pointer;
   }
 
-  .section-wrap {
-    position: relative;
-    overflow: hidden;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0px 30px;
-  }
-
   p+p {
     margin-top: 5px;
   }
 
-  .splitRight .section-wrap {
-    padding: 0 60px 0 0;
-  }
+  .splitRight .section-wrap {}
 
   .splitRight .caption-title h2 {
-    margin-top: 50px;
+    // margin-top: 50px;
+  }
+
+  .splitLeft .caption-title {
+    text-align: left;
   }
 
   footer {
@@ -264,33 +273,34 @@ intro Section
     flex: 0;
   }
 
-  
-.description{
-  padding: 10px;
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
-  margin: 0px auto;
+  .description {
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0px auto;
   }
-.description span{
-  display: block;
-  padding: 10px 50px;
-      font-family: lalezar;
+
+  .description span {
+    display: block;
+    padding: 10px 50px;
+    font-family: lalezar;
     font-size: 1.5vw;
-     color: #777;
-}
-.description:after{
-  content: "";
-  height: 1px;
-  background: #999;
+    color: #777;
+  }
 
-  display: block;
-  position: relative;
-}
+  .description:after {
+    content: "";
+    height: 1px;
+    background: #999;
+    display: block;
+    position: relative;
+  }
 
-.github-btt{
-  display: block;
-}
+  .github-btt {
+    display: block;
+  }
+
   .downloadBTT {
     display: flex;
     max-width: 200px;
@@ -328,18 +338,147 @@ intro Section
     text-shadow: rgba(0, 0, 0, .3) 0 1px 1px;
   }
   /******************************
+workers Section
+*******************************/
+
+  #workers {
+    background-color: #f3f3f3;
+  }
+
+  #workers .section-wrap {
+    margin-top: 30px;
+  }
+
+  .desinner-box {
+    overflow: hidden;
+    padding: 0px;
+  }
+
+  .desinner-box .avatar {
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .desinner-box .avatar networks {
+    padding: 5px;
+  }
+
+  .desinner-box .avatar .fullName {
+    font-family: "LalezarWeb";
+    font-size: 30px;
+    color: #836262
+  }
+
+  .desinner-box .avatar .networks a {
+    font-size: 30px;
+    color: #878787;
+    margin: 0px 3px;
+  }
+
+  .desinner-box .avatar .networks a:hover {
+    color: #836262;
+  }
+
+  .desinner-box .avatar .pic {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid #aeaeae;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    border-radius: 50% 50%;
+  }
+
+  .desinner-box .avatar .pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50%;
+  }
+
+  .desinner-box .note {
+    background-color: #fff;
+    font-size: 14px;
+  }
+
+  .tab-box {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .tab-box .tab-menu {
+    background-color: #836262;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    overflow: hidden
+  }
+
+  .tab-box .tab-menu li {
+    margin: 0px 10px;
+  }
+
+  .tab-box .tab-menu li.active {}
+
+  .tab-box .tab-menu li a {
+    background-color: #c5c5c5;
+    display: block;
+    padding: 3px 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 20px;
+    line-height: 1.3;
+    box-shadow: 0 0 1px 1px #888;
+    font-family: "LalezarWeb";
+  }
+
+  .tab-box .tab-menu li.active a {
+    background-color: #fff;
+  }
+  /******************************
 About Section
 *******************************/
 
   #about {
     background: #fff;
   }
+
+  #about .listItems {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+  }
+
+  .listItems li {
+    margin: 5px;
+    align-items: stretch;
+    border-radius: 3px;
+    /*box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);*/
+    flex: 1 1 52px;
+    overflow: hidden;
+    border-right: 15px solid #5c697a;
+  }
+
+  .listItems li p {
+    flex: 1;
+    margin: 0px;
+    padding: 2px 10px 2px 2px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #5c697a;
+  }
   /******************************
 Store Section
 *******************************/
 
-  #store p {
-    -webkit-text-stroke-width: 0.003em;
+  #sponsorship {
+    background: #FFA726;
   }
   /******************************
 scrool
@@ -410,29 +549,29 @@ scrool
     }
   }
   /******************************
-Props Section
+propertis Section
 *******************************/
 
-  #props {
+  #propertis {
     background-color: #32383c;
   }
 
-  #props .owl-item div {
+  #propertis .owl-item div {
     padding: 4vw 0;
     font-size: 14vw;
     text-align: center;
     color: #fff;
   }
 
-  #props .owl-dots {
+  #propertis .owl-dots {
     text-align: center;
   }
 
-  #props .owl-dot {
+  #propertis .owl-dot {
     display: inline-block;
   }
 
-  #props .owl-dot span {
+  #propertis .owl-dot span {
     width: 7px;
     height: 7px;
     margin: 5px 7px;
@@ -443,20 +582,18 @@ Props Section
     border-radius: 30px;
   }
 
-  #props .owl-dot.active span {
+  #propertis .owl-dot.active span {
     background: #c50e0e;
   }
 
-  #props .owl-dot:hover span {
+  #propertis .owl-dot:hover span {
     background: #830000;
   }
 
   #slider .fontName {}
-/********************
+  /********************
 material box
 ************************/
-
-
   /******************************
 scrool
 *******************************/
@@ -475,7 +612,7 @@ scrool
 
   .center-it {
     position: relative;
-        text-align: center;
+    text-align: center;
     display: block;
     margin-top: 30px;
   }
@@ -515,7 +652,7 @@ scrool
     #intro .row1 div {
       font-size: 4vw;
     }
-    #props .owl-item div {
+    #propertis .owl-item div {
       font-size: 16vw;
     }
   }
@@ -532,7 +669,7 @@ scrool
     #intro .row1 div {
       font-size: 3vw;
     }
-    #props .owl-item div {
+    #propertis .owl-item div {
       font-size: 16vw;
     }
   }
