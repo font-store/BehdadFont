@@ -71,3 +71,22 @@ total(dollar) : 0$
 ![Intro](docs/1.png)
 ![Intro](docs/2.png)
 ![Intro](docs/3.png)
+
+## Install
+
+#### Linux
+gnu/inux users could use [kateb](https://github.com/kiamazi/kateb) font manager, to install Behdad font.
+
+ubuntu users must install this dependensies too:
+```
+sudo apt install openssl libssl-dev
+````
+
+##### install kateb
+```
+sudo cpan kateb
+
+kateb install behdad
+or
+kateb update behdad
+```
