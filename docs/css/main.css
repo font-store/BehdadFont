@@ -222,7 +222,7 @@ Layout setup
 
   footer {
     background: #343740;
-    padding: 100px;
+    padding: 30px;
   }
   /******************************
 Welcome Section
@@ -344,6 +344,15 @@ intro Section
     user-select: none;
   }
 
+  .downloadBTT.pay{
+    width: 300px;
+  }
+
+  .downloadBTT.pay span  {
+    white-space: nowrap;
+  }
+
+
   .downloadBTT i {
     font-size: 30px;
   }
@@ -360,10 +369,15 @@ intro Section
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: center;
+  
+  }
+  .downloadBTT .icon+.textbox{
+    padding-right: 10px;
   }
 
   .downloadBTT .textbox span {
-    flex: 1;
+    
     text-align: center;
     font-weight: 400;
     font-size: 15px;
@@ -372,10 +386,18 @@ intro Section
   /******************************
 workers Section
 *******************************/
+#donate{
+  background:#fff;
+}
+#donate .section-wrap{
+    width:600px;
+}
 
   #workers {
     background-color: #f3f3f3;
   }
+
+
 
   #workers .section-wrap {
     margin-top: 30px;
@@ -559,7 +581,9 @@ About Section
   /******************************
 Store Section
 *******************************/
-
+#store .section-wrap{
+  padding: 0 10vw;
+}
   #sponsorship {
     background: #FFA726;
   }
